@@ -1,0 +1,72 @@
+.first {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.firt {
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    border-radius: 1em;
+    box-shadow: 1px 1px 1px 2px grey;
+    background-color: #333; 
+    padding: 0 1.5em 0 1.5em;
+}
+
+.logo {
+    font-size: 1.5em; /* Adjusted font size */
+    font-weight: bold; /* Added font weight */
+}
+
+.navLinks a {
+    text-decoration: none;
+    margin: 0 2em;
+    color: white; /* Added text color */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #333; /* Added background color */
+    color: #fff; /* Added text color */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; /* Added background color */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownContent a {
+    color: #333; /* Added text color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownContent a:hover {
+    background-color: #ddd; /* Added hover background color */
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #555; /* Added hover background color */
+}
